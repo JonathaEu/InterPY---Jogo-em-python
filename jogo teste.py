@@ -65,7 +65,7 @@ while rodando:
         if event.type == pygame.QUIT:
             rodando = False
 
-    criminoso = pygame.image.load('i1_jogo_720p.png')
+    criminoso = pygame.image.load('images/i1_jogo_720p.png')
     screen.blit(criminoso,(0,0))
     
     pygame.display.update()
