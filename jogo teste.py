@@ -15,7 +15,7 @@ screen = pygame.display.set_mode((0,0))
 texto = fontI.render('Bem-vindo ao InterPY',32,constantes.cWhite,)
 texto2 = fontMenor.render('Pressione qualquer tecla para começar a jogar',32,constantes.cWhite)
 #INSTRUÇÕES
-textoReal = fonteTextoE.render('InterPY é um jogo que consiste em você(jogador) ser um agente da interpol, o qual é contratado por uma',32,constantes.cWhite)
+textoReal = fonteTextoE.render('InterPY é um jogo que consiste em você (jogador) ser um agente da interpol, o qual é contratado por uma',32,constantes.cWhite)
 screen.blit(textoReal,(140,250))
 pygame.display.flip()
 textoReal = fonteTextoE.render('agência estrangeira e você deve passar as características dos indivíduos suspeitos, para seu superior que apenas entende',32,constantes.cWhite)
